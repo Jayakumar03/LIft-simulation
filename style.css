@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background:linear-gradient(to right, rgb(211, 189, 189),rgb(178, 178, 202),rgb(188, 214, 188));
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: center;
+    gap: 1em;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+input{
+    color: red;
+}
+
+.container-lift{
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 25%;
+}
